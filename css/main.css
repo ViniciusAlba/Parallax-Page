@@ -27,6 +27,7 @@
 
     display: inline;
     list-style: none;
+    margin: 0 10px;
 
 }
 
@@ -34,6 +35,19 @@
 
     text-decoration: none;
     color: #000000;
+
+}
+
+.footer a:hover, i:hover {
+
+    color: #7d47d4;
+    transform: scale(1.2);
+
+}
+
+.footer p {
+
+    margin-top: 10px;
 
 }
 

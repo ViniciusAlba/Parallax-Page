@@ -13,24 +13,6 @@
     
     }
 
-    .footer li{
-
-        margin: 0 10px;
-
-    }
-
-    .footer a {
-
-        color: #52AEF8;
-
-    }
-
-    .footer p {
-
-        margin-top: 30px;
-
-    }
-
     section {
 
         height: 600px;
@@ -65,24 +47,6 @@
     
     }
 
-    .footer li{
-
-        margin: 0 10px;
-
-    }
-
-    .footer a {
-
-        color: #52AEF8;
-
-    }
-
-    .footer p {
-
-        margin-top: 30px;
-
-    }
-
     section:nth-of-type(4) {
 
         background-image: url(/imgs/selecao-brasileira2.jpg);
@@ -97,24 +61,6 @@
 
         width: 98vw;
     
-    }
-
-    .footer li{
-
-        margin: 0 10px;
-
-    }
-
-    .footer a {
-
-        color: #52AEF8;
-
-    }
-
-    .footer p {
-
-        margin-top: 30px;
-
     }
 
 }
