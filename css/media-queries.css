@@ -1,9 +1,120 @@
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+    .headline, .footer {
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+        height: 300px;
+        text-align: center;
+    
+    }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+    .description, .footer p {
 
-@media (min-width: 1200px) {}
+        width: 90vw;
+    
+    }
+
+    .footer li{
+
+        margin: 0 10px;
+
+    }
+
+    .footer a {
+
+        color: #52AEF8;
+
+    }
+
+    .footer p {
+
+        margin-top: 30px;
+
+    }
+
+    section {
+
+        height: 600px;
+    
+    }
+    
+    section:nth-of-type(2) {
+
+        height: 400px;
+    
+    }
+
+    section:nth-of-type(4) {
+
+        background-image: url(/imgs/selecao-brasileira2.jpg);
+    
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+    .headline {
+
+        text-align: center;
+
+    }
+
+    .description {
+
+        width: 95vw;
+    
+    }
+
+    .footer li{
+
+        margin: 0 10px;
+
+    }
+
+    .footer a {
+
+        color: #52AEF8;
+
+    }
+
+    .footer p {
+
+        margin-top: 30px;
+
+    }
+
+    section:nth-of-type(4) {
+
+        background-image: url(/imgs/selecao-brasileira2.jpg);
+    
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    .description {
+
+        width: 98vw;
+    
+    }
+
+    .footer li{
+
+        margin: 0 10px;
+
+    }
+
+    .footer a {
+
+        color: #52AEF8;
+
+    }
+
+    .footer p {
+
+        margin-top: 30px;
+
+    }
+
+}
