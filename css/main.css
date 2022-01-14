@@ -1,0 +1,97 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.headline, .footer {
+
+    height: 150px;
+
+}
+
+.description {
+
+    width: 60vw;
+
+    text-align: justify;
+
+}
+
+.footer li {
+
+    display: inline;
+    list-style: none;
+
+}
+
+.footer a {
+
+    text-decoration: none;
+    color: #000000;
+
+}
+
+section {
+
+    width: 100%;
+    height: 300px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section:nth-of-type(2) {
+
+    background-image: url(/imgs/taca-copa.jpg);
+    height: 600px;
+
+}
+
+section:nth-of-type(4) {
+
+    background-image: url(/imgs/selecao-brasileira.jpg);
+    height: 600px;
+
+}
+
+section:nth-of-type(6) {
+
+    background-image: url(/imgs/selecao-alema.jpg);
+    height: 600px;
+
+}
+
+section:nth-of-type(8) {
+
+    background-image: url(/imgs/selecao-italiana.jpg);
+    height: 600px;
+
+}
+
+section:nth-of-type(10) {
+
+    background-image: url(/imgs/selecao-argentina.jpg);
+    height: 600px;
+
+}
+
+section:nth-of-type(12) {
+
+    background-image: url(/imgs/selecao-francesa.jpg);
+    height: 800px;
+
+}
